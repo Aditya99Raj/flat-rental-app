@@ -1,11 +1,12 @@
 {
-  "name": "apartment-manager",
+  "name": "flat-rental-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "node src/index.js"
+    "server": "node src/index.js",
+    "postinstall": "ng build"
   },
   "keywords": [],
   "author": "",
