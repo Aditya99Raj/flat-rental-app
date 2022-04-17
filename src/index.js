@@ -14,15 +14,14 @@ app.post("/login", login);
 
 app.use("/user", userController);
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 6060;
 
 app.listen(PORT, async () => {
-    try {
+   
         await connect();
-        console.log("Listening on port 8080");
-    } catch (error) {
-        console.log('error:', error)
-    }
+        console.log("Listening on port 6060");
+    
 })
 
-// https://floating-sea-61858.herokuapp.com/ | https://git.heroku.com/floating-sea-61858.git
+//  https://git.heroku.com/rental-app-for-flat.git
+//https://rental-app-for-flat.herokuapp.com/
